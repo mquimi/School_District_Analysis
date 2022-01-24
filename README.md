@@ -1,1 +1,67 @@
 # School_District_Analysis
+
+### Overview of the School District Analysis:
+
+The overall purpose of this analysis is for the school board to understand the different perfromance metrics, based on math and reading scores for various schools and school districts. While conducting the analysis, we ran into an issue of academic dishonesty for ninth graders at Thomas High School.
+
+in order to prevent skewness to the analyasis, we have been advised to by Maria to convert all ninth grade Thomas High School's students to NaN (null value.)
+
+Below are the two files that were used for this analysis:
+
+
+- add file here
+- add file here
+
+
+
+### Results: Using bulleted lists and images of DataFrames as support, address the following questions.
+
+- How is the district summary affected?
+
+Original analysis
+
+Updated analysis
+
+
+- As you can see from the images above, the reading and math scores were not drastically imapcted. The changes from the original image to the updated image show a chage of less than .5%. It is also helpful to remember that there are only 461 9th graders at Thomas High school and a total of 39,170 students. If you do the math, 9th graders only make up 1.17% of the population, meaning grades arent impacted as much.
+
+
+
+- How is the school summary affected?
+
+School summary original
+
+School summary with NaN
+
+Based on the two images, you can see that there some 9th graders who had higher math scores than the rest of the school population. Reading scores on the other hand show that there were 9th graders who scorred lowerd than other students at Thomas High School.
+
+- How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
+
+##How does replacing the ninth-grade scores affect the following:
+
+Math and reading scores by grade
+Math Original
+Math Updated
+
+Reading Original
+Reading Updated
+
+- the only scores that were impacted by the 9th grade change are the 9th graders at Thomas High School. If wanted to calculate the average scores, then we will some changes because we will be calculating two completely different values.
+
+Scores by school spending
+- the school budget did not change when replacing 9th grade scores with NaN
+
+Scores by school size
+-  the school size did not change when replacing 9th grade scores with NaN
+
+Scores by school type
+- the school type did not change when replacing 9th grade scores with NaN
+
+###Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+
+4 changes that occured in the school district analysis after the ninth grade scores's at Thomas High School were replaced with NaNs were:
+
+1. Average math score, passing math %, passing reading % and overall passing % all decreased at Thomas High School
+2. The overall passing % for the entire district decreased due to Thomas High School overall passing % decrease
+3. 
+4. 
