@@ -9,12 +9,12 @@ in order to prevent skewness to the analyasis, we have been advised to by Maria 
 Below are the two files that were used for this analysis:
 
 
-- add file here
-- add file here
+- [Schools Files](Resources/schools_complete.csv)
+- [Student Files](Resources/students_complete.csv)
 
 
 
-### Results: Using bulleted lists and images of DataFrames as support, address the following questions.
+### Results:
 
 - How is the district summary affected?
 
@@ -25,7 +25,6 @@ Updated analysis
 ![alt text](https://github.com/mquimi/School_District_Analysis/blob/main/Image/updated%20analysis.png)
 
 - As you can see from the images above, the reading and math scores were not drastically imapcted. The changes from the original image to the updated image show a chage of less than .5%. It is also helpful to remember that there are only 461 9th graders at Thomas High school and a total of 39,170 students. If you do the math, 9th graders only make up 1.17% of the population, meaning grades arent impacted as much.
-
 
 
 - How is the school summary affected?
@@ -67,11 +66,11 @@ Scores by school size
 Scores by school type
 - the school type did not change when replacing 9th grade scores with NaN
 
-###Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+###Summary:
 
-4 changes that occured in the school district analysis after the ninth grade scores's at Thomas High School were replaced with NaNs were:
+Changes that occured in the school district analysis after the ninth grade scores's at Thomas High School were replaced with NaNs were:
 
 1. Average math score, passing math %, passing reading % and overall passing % all decreased at Thomas High School
 2. The overall passing % for the entire district decreased due to Thomas High School overall passing % decrease
-3. 
-4. 
+3. Charter school scores resulted in a reduction with the 9th grade changes happening
+4. Schools like Wright High School moved into the top 5 high school districts when changes happened
