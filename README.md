@@ -42,6 +42,7 @@ Based on the two images, you can see that there some 9th graders who had higher 
 
 
 Math and reading scores by grade
+
 Math Original
 ![alt text](https://github.com/mquimi/School_District_Analysis/blob/main/Image/Math%20Original.png)
 
@@ -65,7 +66,7 @@ Scores by school size
 Scores by school type
 - the school type did not change when replacing 9th grade scores with NaN
 
-###Summary:
+### Summary:
 
 Changes that occured in the school district analysis after the ninth grade scores's at Thomas High School were replaced with NaNs were:
 
